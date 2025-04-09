@@ -24,7 +24,7 @@ map('n', '<M-d>', function() Snacks.bufdelete() end, vim.tbl_extend('keep', opts
 map('i', '<C-s>', '<cmd>w<cr>', opts)
 
 -- Open terminal like in VSCode
-map({ 'i', 'n' }, '<C-`>', function() Snacks.terminal() end, opts)
+-- map({ 'i', 'n' }, '<C-`>', function() Snacks.terminal() end, opts)
 
 -- >>>>>>>>>>>>>>>>>>> --
 --  LINES FORMATTING
@@ -61,7 +61,7 @@ map('v', '<M-Up>', ":<C-u>execute \"'<,'>move '<-\" . (v:count1 + 1)<cr>gv=gv",
 
 -- Void Delete (Visual mode only)
 map('v', '<S-d>', '"_d', vim.tbl_extend('keep', opts, {
-  desc = 'Delete to Void'
+  desc = 'Void Delete'
 }))
 
 -- Block the entire contents in the current buffer
