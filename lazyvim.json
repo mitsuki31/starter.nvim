@@ -2,7 +2,9 @@
   "extras": [
     "lazyvim.plugins.extras.editor.telescope",
     "lazyvim.plugins.extras.lang.typescript",
-    "lazyvim.plugins.extras.lang.vscode"
+    "lazyvim.plugins.extras.lang.vscode",
+    "lazyvim.plugins.extras.lsp.neoconf",
+    "lazyvim.plugins.extras.ui.indent-blankline"
   ],
   "install_version": 8,
   "news": {
