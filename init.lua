@@ -8,5 +8,9 @@ require("config.rainbow-delimiters")
 vim.cmd("colorscheme tokyonight")
 vim.g.nightflyTransparent = true
 
+-- Disable auto-format and use relative number in every buffers
+vim.g.autoformat = false
+vim.opt.relativenumber = false
+
 -- Disable plugins check order
 vim.g.lazyvim_check_order = false
