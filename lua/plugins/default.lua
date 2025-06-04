@@ -3,6 +3,16 @@ return {
   { "bluz71/vim-nightfly-colors" },
   { "catppuccin/nvim" },
   { "rebelot/kanagawa.nvim" },
+  {
+    "tokyonight.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
 
   -- Snacks
   {
@@ -668,5 +678,5 @@ return {
     opts = {},
   },
   { "HiPhish/rainbow-delimiters.nvim" },
-  { "xiyaowong/transparent.nvim" },
+  { "xiyaowong/transparent.nvim", enabled = true },
 }

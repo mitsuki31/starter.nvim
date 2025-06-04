@@ -5,7 +5,7 @@ require("config.renamer")
 require("config.indent-blankline")
 require("config.rainbow-delimiters")
 
-vim.cmd("colorscheme nightfly")
+vim.cmd("colorscheme tokyonight")
 vim.g.nightflyTransparent = true
 
 -- Disable plugins check order
